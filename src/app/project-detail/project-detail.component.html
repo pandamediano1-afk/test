@@ -1,0 +1,96 @@
+@if (project; as detail) {
+  <main class="page-shell project-detail-page">
+    <a class="project-back-link" routerLink="/">&larr; All projects</a>
+
+    <section class="project-detail-hero">
+      <p class="eyebrow"><span class="eyebrow-dot"></span>PROJECT CASE STUDY</p>
+      <h1>{{ detail.title }}</h1>
+      <div class="project-meta-grid">
+        <div><span>{{ detail.clientLabel ?? 'Khách hàng' }}</span><strong>{{ detail.client }}</strong></div>
+        @if (detail.channel && detail.channelUrl) {
+          <div><span>Kênh</span><a [href]="detail.channelUrl" target="_blank" rel="noreferrer">{{ detail.channel }} &nearr;</a></div>
+        }
+        @if (detail.category) {
+          <div><span>Lĩnh vực</span><strong>{{ detail.category }}</strong></div>
+        }
+        @if (detail.timeline) {
+          <div><span>Thời gian</span><strong>{{ detail.timeline }}</strong></div>
+        }
+        @if (detail.role) {
+          <div><span>Vai trò</span><strong>{{ detail.role }}</strong></div>
+        }
+      </div>
+      <div class="media-frame project-detail-image">
+        <img [src]="detail.image" [alt]="detail.imageAlt">
+      </div>
+    </section>
+
+    @if (detail.detailsAvailable) {
+      <section class="case-section case-overview">
+        <p class="eyebrow">TỔNG QUAN DỰ ÁN</p>
+        <p class="case-lead">{{ detail.overview }}</p>
+      </section>
+
+      <section class="case-section">
+        <p class="eyebrow">MỤC TIÊU</p>
+        <ul class="case-goal-list">
+          @for (goal of detail.goals; track goal) {
+            <li>{{ goal }}</li>
+          }
+        </ul>
+      </section>
+
+      <section class="case-section">
+        <p class="eyebrow">CHIẾN LƯỢC NỘI DUNG</p>
+        <div class="case-strategy-grid">
+          @for (item of detail.strategy; track item.title) {
+            <article class="case-strategy-card">
+              <h2>{{ item.title }}</h2>
+              <p>{{ item.description }}</p>
+            </article>
+          }
+        </div>
+      </section>
+
+      <section class="case-section">
+        <p class="eyebrow">KẾT QUẢ NỔI BẬT</p>
+        <div class="case-results-grid">
+          @for (result of detail.results; track result.label) {
+            <article class="case-result-card">
+              <strong>{{ result.value }}</strong>
+              <span>{{ result.label }}</span>
+            </article>
+          }
+        </div>
+        <p class="case-note">{{ detail.resultsNote }}</p>
+      </section>
+
+      <section class="case-section">
+        <p class="eyebrow">ĐÓNG GÓP CÁ NHÂN</p>
+        <ul class="case-goal-list case-contribution-list">
+          @for (item of detail.contributions; track item) {
+            <li>{{ item }}</li>
+          }
+        </ul>
+      </section>
+
+      <section class="case-summary">
+        <p class="eyebrow">TÓM TẮT</p>
+        <blockquote>{{ detail.shortDescription }}</blockquote>
+      </section>
+    } @else {
+      <section class="case-section case-coming-soon">
+        <p class="eyebrow">CASE STUDY</p>
+        <h2>Trang dự án đã sẵn sàng</h2>
+        <p>Trang này đã có đường dẫn riêng và ảnh bìa. Nội dung tổng quan, mục tiêu, chiến lược, kết quả và đóng góp cá nhân sẽ được bổ sung khi có thông tin dự án.</p>
+      </section>
+    }
+
+    <a class="project-back-link project-back-bottom" routerLink="/">&larr; Quay lại các dự án</a>
+  </main>
+} @else {
+  <main class="page-shell project-detail-page">
+    <p class="case-lead">Không tìm thấy dự án này.</p>
+    <a class="project-back-link" routerLink="/">&larr; Quay lại các dự án</a>
+  </main>
+}

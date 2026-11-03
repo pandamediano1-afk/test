@@ -81,52 +81,52 @@ export const portfolio = {
       description: 'Add a concise description of the work and outcome.'
     }
   ],
-  friends: [
-    { name: 'Person One', role: 'Designer — Company', url: 'https://example.com' },
-    { name: 'Person Two', role: 'Product Designer — Company', url: 'https://example.com' },
-    { name: 'Person Three', role: 'Design Lead — Company', url: 'https://example.com' },
-    { name: 'Person Four', role: 'UX Designer — Company', url: 'https://example.com' },
-    { name: 'Person Five', role: 'Creative Director — Company', url: 'https://example.com' },
-    { name: 'Person Six', role: 'Founder — Studio', url: 'https://example.com' },
-    { name: 'Person Seven', role: 'Product Designer — Company', url: 'https://example.com' },
-    { name: 'Person Eight', role: 'Design Engineer — Company', url: 'https://example.com' }
-  ],
+  // friends: [
+  //   { name: 'Person One', role: 'Designer — Company', url: 'https://example.com' },
+  //   { name: 'Person Two', role: 'Product Designer — Company', url: 'https://example.com' },
+  //   { name: 'Person Three', role: 'Design Lead — Company', url: 'https://example.com' },
+  //   { name: 'Person Four', role: 'UX Designer — Company', url: 'https://example.com' },
+  //   { name: 'Person Five', role: 'Creative Director — Company', url: 'https://example.com' },
+  //   { name: 'Person Six', role: 'Founder — Studio', url: 'https://example.com' },
+  //   { name: 'Person Seven', role: 'Product Designer — Company', url: 'https://example.com' },
+  //   { name: 'Person Eight', role: 'Design Engineer — Company', url: 'https://example.com' }
+  // ],
   work: {
-    label: 'SELECTED WORK',
-    headline: 'I design digital products with',
-    emphasis: 'clarity and care.',
-    intro: 'Product designer at Your Company. Based in Your City.',
-    note: 'Previously at Company One and Company Two.',
+    label: 'DỰ ÁN TIÊU BIỂU',
+headline: 'Tôi phát triển các kênh TikTok bằng',
+emphasis: 'những câu chuyện thu hút người xem.',
+intro: 'Nhà sáng tạo nội dung TikTok trong lĩnh vực ẩm thực, livestream và thương hiệu địa phương.',
+note: 'Các dự án thuộc lĩnh vực ẩm thực, giải trí và tiếp thị địa phương. Số liệu công khai được ghi nhận vào tháng 11/2026.',
     projects: [
       {
-        title: 'Project One',
-        client: 'Company One · 2025',
-        description: 'Add a short sentence about the challenge and the result.',
-        image: 'https://cdn.prod.website-files.com/63dcb6e1a80e9454b630f4c4/64a5bd98de6e86b98dbb3ca9_info-pic-2.png',
+        title: 'Xây kênh TikTok - HotGrill',
+        client: 'HotGrill · Bắc Ninh',
+        description: 'Nội dung song ngữ Việt–Trung về ẩm thực, trải nghiệm tại quán và câu chuyện thương hiệu.',
+        image: '/picture/duan1.png',
         imageAlt: 'Project One cover image',
-        url: '#'
+        url: '/project/ouyang'
       },
       {
-        title: 'Project Two',
-        client: 'Company Two · 2024',
-        description: 'Add a short sentence that makes someone want to learn more.',
-        image: 'https://cdn.prod.website-files.com/63dcb6e1a80e9454b630f4c4/64a5ccb799ca82d3534ad7c0_info-pic-3.png',
+        title: 'Phát triển kênh TikTok - Panda Media',
+        client: 'Panda Media · 2024',
+        description: 'Nội dung về nghề idol livestream, chuỗi review idol và cơ hội tuyển dụng tại Bắc Ninh.',
+        image: '/picture/duan2.png',
         imageAlt: 'Project Two cover image',
-        url: '#'
+        url: '/project/panda-media'
       },
       {
-        title: 'Project Three',
-        client: 'Independent · 2023',
-        description: 'Replace this with a clear, specific project summary.',
-        image: 'https://cdn.prod.website-files.com/63dcb6e1a80e9454b630f4c4/64a59e488d40ea3b664ef05d_info-pic-1.png',
+        title: 'Phát triển nội dung TikTok - Hảo Kinh Doanh',
+        client: 'HotGrill · Bắc Ninh',
+        description: 'Nội dung về set lẩu, combo lẩu camping và trải nghiệm ăn uống tại Bắc Ninh.',
+        image: '/picture/duan3.png',
         imageAlt: 'Project Three cover image',
-        url: '#'
+        url: '/project/hao-kinh-doanh'
       }
     ]
   },
   footer: {
-    copyright: '© 2025 Your Name. All rights reserved.',
-    note: 'Made with care and a good cup of tea.',
-    comingSoon: 'Always making something new.'
+    copyright: '©Bùi Trọng Tấn.',
+    note: 'website được phát triển bằng Angular 17, TypeScript 6 và Tailwind CSS. Nội dung dự án thuộc lĩnh vực ẩm thực, giải trí và tiếp thị địa phương. Số liệu công khai được ghi nhận vào tháng 11/2026.',
+    comingSoon: 'được phát triển bởi Bùi Trọng Tấn.'
   }
 } as const;
