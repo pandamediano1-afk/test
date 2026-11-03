@@ -1,14 +1,14 @@
 export const portfolio = {
-  name: 'Your Name',
+  name: 'Bùi Trọng Tấn',
   role: 'Product Designer',
   contactEmail: 'hello@example.com',
   linkedin: 'https://www.linkedin.com/',
   resume: '#',
   hero: {
     label: 'ABOUT ME',
-    headline: 'I create thoughtful products that',
-    emphasis: 'make life better.',
-    intro: 'Designer focused on useful, human experiences. Based in Your City.',
+    headline: ' Tôi có thể triển khai chiến lược nội dung, xây dựng định hướng thương hiệu đến sản xuất video và triển khai quảng cáo trên.',
+    emphasis: 'TikTok.',
+    intro: '3 năm kinh nghiệm trong việc viết kịch bản, định hướng nội dung, sản xuất video TikTok.',
     image: 'https://cdn.prod.website-files.com/63dcb6e1a80e9454b630f4c4/64a59e488d40ea3b664ef05d_info-pic-1.png',
     imageAlt: 'Replace this portrait with your own'
   },
@@ -60,7 +60,7 @@ export const portfolio = {
       imageAlt: 'Personal photograph — replace with your own'
     }
   ],
-  signature: 'Your Name',
+  signature: 'Bùi Trọng Tấn',
   experience: [
     {
       company: 'Company One',
@@ -92,32 +92,32 @@ export const portfolio = {
     { name: 'Person Eight', role: 'Design Engineer — Company', url: 'https://example.com' }
   ],
   work: {
-    label: 'SELECTED WORK',
-    headline: 'I design digital products with',
-    emphasis: 'clarity and care.',
-    intro: 'Product designer at Your Company. Based in Your City.',
-    note: 'Previously at Company One and Company Two.',
+    label: 'Công Việc',
+    headline: 'Viết kịch bản, định hướng nội dung, và sản xuất video. chạy ads',
+    emphasis: 'trên nền tảng TikTok',
+    intro: 'Hỗ trợ các doanh nghiệp, cá nhân, và tổ chức phát triển thương hiệu',
+    note: 'Các dự án được thực hiện bởi Bùi Trọng Tấn',
     projects: [
       {
-        title: 'Project One',
-        client: 'Company One · 2025',
-        description: 'Add a short sentence about the challenge and the result.',
+        title: 'Kênh TikTok Ouyang- TikTok',
+        client: 'từ tháng 12/2025 đến nay',
+        description: 'định hướng nội dung, viết kịch bản, sản xuất video, chăm sóc khách hàng',
         image: 'https://cdn.prod.website-files.com/63dcb6e1a80e9454b630f4c4/64a5bd98de6e86b98dbb3ca9_info-pic-2.png',
         imageAlt: 'Project One cover image',
         url: '#'
       },
       {
-        title: 'Project Two',
-        client: 'Company Two · 2024',
-        description: 'Add a short sentence that makes someone want to learn more.',
+        title: 'Kênh TikTok Panda Media- TikTok',
+        client: 'từ tháng 3/2026 đến nay',
+        description: 'định hướng nội dung, viết kịch bản, sản xuất video, chạy ads',
         image: 'https://cdn.prod.website-files.com/63dcb6e1a80e9454b630f4c4/64a5ccb799ca82d3534ad7c0_info-pic-3.png',
         imageAlt: 'Project Two cover image',
         url: '#'
       },
       {
-        title: 'Project Three',
-        client: 'Independent · 2023',
-        description: 'Replace this with a clear, specific project summary.',
+        title: 'Kênh Hảo Kinh Doanh - TikTok',
+        client: 'từ tháng 3/2026 đến nay',
+        description: 'Viết kịch bản, định hướng nội dung, và sản xuất video',
         image: 'https://cdn.prod.website-files.com/63dcb6e1a80e9454b630f4c4/64a59e488d40ea3b664ef05d_info-pic-1.png',
         imageAlt: 'Project Three cover image',
         url: '#'
@@ -125,8 +125,8 @@ export const portfolio = {
     ]
   },
   footer: {
-    copyright: '© 2025 Your Name. All rights reserved.',
-    note: 'Made with care and a good cup of tea.',
+    copyright: '© Bùi Trọng Tấn.',
+    note: 'website được vibe code thiết kế và phát triển bởi Bùi Trọng Tấn nhằm mục đích học tập và phát triển kỹ năng. không sử dụng cho mục đích thương mại.',
     comingSoon: 'Always making something new.'
   }
 } as const;
