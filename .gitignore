@@ -1,0 +1,17 @@
+# Dependencies and generated build output
+/node_modules/
+/dist/
+/.angular/
+/coverage/
+
+# Local environment files and logs
+.env
+.env.*
+*.log
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json

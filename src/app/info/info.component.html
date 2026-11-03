@@ -1,0 +1,63 @@
+<main class="page-shell info-page">
+  <section class="about-hero">
+    <p class="eyebrow"><span class="eyebrow-dot"></span>{{ data.hero.label }}</p>
+    <h1>{{ data.hero.headline }} <em>{{ data.hero.emphasis }}</em></h1>
+
+    <div class="media-frame portrait-image">
+      <img [src]="data.hero.image" [alt]="data.hero.imageAlt" fetchpriority="high">
+    </div>
+
+    <p class="hero-subtitle">{{ data.hero.intro }}</p>
+    <p class="story-lead">{{ data.storyLead }}</p>
+  </section>
+
+  <section class="story-list" aria-label="My story">
+    @for (story of data.stories; track story.title) {
+      <article class="story-block">
+        <div class="media-frame story-image">
+          <img [src]="story.image" [alt]="story.imageAlt" loading="lazy">
+        </div>
+        <div class="story-copy">
+          <h2>{{ story.title }}</h2>
+          @for (paragraph of story.paragraphs; track paragraph) {
+            <p>{{ paragraph }}</p>
+          }
+        </div>
+      </article>
+    }
+  </section>
+
+  <div class="story-signoff">
+    <p>Thanks for stopping by!</p>
+    <span class="signature">{{ data.signature }}</span>
+  </div>
+
+  <section class="resume-section" id="experience">
+    <h2 class="eyebrow"><span class="eyebrow-dot"></span>EXPERIENCE</h2>
+    <div class="experience-list">
+      @for (job of data.experience; track job.company) {
+        <article class="experience-item">
+          <div class="experience-heading">
+            <h3>{{ job.company }}</h3>
+            <p class="experience-role">{{ job.role }}</p>
+            <p class="experience-dates">{{ job.dates }}</p>
+          </div>
+          <p class="experience-description">{{ job.description }}</p>
+        </article>
+      }
+    </div>
+  </section>
+
+  <section class="friends-section">
+    <h2 class="eyebrow"><span class="eyebrow-dot"></span>FRIENDS</h2>
+    <div class="friends-grid">
+      @for (friend of data.friends; track friend.name) {
+        <a class="friend-card" [href]="friend.url" target="_blank" rel="noreferrer">
+          <span class="friend-name">{{ friend.name }}</span>
+          <span class="friend-role">{{ friend.role }}</span>
+          <span class="friend-link">{{ displayUrl(friend.url) }} ↗</span>
+        </a>
+      }
+    </div>
+  </section>
+</main>

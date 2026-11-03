@@ -1,0 +1,43 @@
+<header class="site-header">
+  <nav class="nav-pill" aria-label="Main navigation">
+    <a
+      routerLink="/"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      ariaCurrentWhenActive="page"
+    >Work</a>
+    <a routerLink="/info" routerLinkActive="active" ariaCurrentWhenActive="page">Info</a>
+  </nav>
+
+  <a
+    class="contact-button"
+    [href]="'mailto:' + portfolio.contactEmail"
+    [attr.aria-label]="'Email ' + portfolio.name"
+  >@</a>
+</header>
+
+<router-outlet></router-outlet>
+
+<footer class="site-footer">
+  <div class="footer-main">
+    <div>
+      <span class="footer-label">MAIN</span>
+      <a routerLink="/">Work</a>
+      <a routerLink="/info">Info</a>
+    </div>
+    <div>
+      <span class="footer-label">CONTACT</span>
+      <a [href]="portfolio.linkedin" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+      <a [href]="portfolio.resume" target="_blank" rel="noreferrer">Resume ↗</a>
+      <a [href]="'mailto:' + portfolio.contactEmail">{{ portfolio.contactEmail }}</a>
+    </div>
+  </div>
+
+  <div class="footer-meta">
+    <div>
+      <p>{{ portfolio.footer.copyright }}</p>
+      <p class="muted">{{ portfolio.footer.note }}</p>
+    </div>
+    <p class="muted footer-soon">{{ portfolio.footer.comingSoon }}</p>
+  </div>
+</footer>

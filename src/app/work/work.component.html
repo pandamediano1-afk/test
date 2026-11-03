@@ -1,0 +1,28 @@
+<main class="page-shell work-page">
+  <section class="work-hero">
+    <p class="eyebrow"><span class="eyebrow-dot"></span>{{ data.work.label }}</p>
+    <h1>{{ data.work.headline }} <em>{{ data.work.emphasis }}</em></h1>
+    <p class="hero-subtitle">
+      {{ data.work.intro }}<br>
+      {{ data.work.note }}
+    </p>
+  </section>
+
+  <section class="projects" aria-label="Selected projects">
+    @for (project of data.work.projects; track project.title; let i = $index) {
+      <a class="project-card" [href]="project.url">
+        <div class="media-frame project-image">
+          <img [src]="project.image" [alt]="project.imageAlt" [attr.loading]="i === 0 ? 'eager' : 'lazy'">
+        </div>
+        <div class="project-copy">
+          <div>
+            <h2>{{ project.title }}</h2>
+            <span class="project-client">{{ project.client }}</span>
+          </div>
+          <p>{{ project.description }}</p>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </div>
+      </a>
+    }
+  </section>
+</main>
