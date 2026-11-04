@@ -2,6 +2,7 @@
 /node_modules/
 /dist/
 /.angular/
+/.netlify/
 /coverage/
 
 # Local environment files and logs
