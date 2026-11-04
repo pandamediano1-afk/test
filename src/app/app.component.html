@@ -11,8 +11,10 @@
 
   <a
     class="contact-button"
-    [href]="'mailto:' + portfolio.contactEmail"
-    [attr.aria-label]="'Email ' + portfolio.name"
+    href="https://drive.google.com/file/d/102kSUwy3YArZ8SbswwF2DXx9R7GSqeS9/view?usp=drivesdk"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Open Google Drive file"
   >@</a>
 </header>
 
@@ -27,9 +29,9 @@
     </div>
     <div>
       <span class="footer-label">CONTACT</span>
-      <a [href]="portfolio.linkedin" target="_blank" rel="noreferrer">LinkedIn ↗</a>
-      <a [href]="portfolio.resume" target="_blank" rel="noreferrer">Resume ↗</a>
-      <a [href]="'mailto:' + portfolio.contactEmail">{{ portfolio.contactEmail }}</a>
+      <a [href]="'tel:' + portfolio.phone">Điện thoại: {{ portfolio.phone }}</a>
+      <a [href]="portfolio.facebook" target="_blank" rel="noreferrer">Facebook ↗</a>
+      <a [href]="'mailto:' + portfolio.contactEmail">Gmail: {{ portfolio.contactEmail }}</a>
     </div>
   </div>
 

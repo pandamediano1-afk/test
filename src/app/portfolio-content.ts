@@ -1,84 +1,84 @@
 export const portfolio = {
   name: 'Bùi Trọng Tấn',
   role: 'Product Designer',
-  contactEmail: 'hello@example.com',
-  linkedin: 'https://www.linkedin.com/',
-  resume: '#',
+  contactEmail: 'buitrongtan2k2@gmail.com',
+  phone: '0388433654',
+  facebook: 'https://fb.com/buitrongtan0',
   hero: {
     label: 'ABOUT ME',
-    headline: ' Tôi có thể triển khai chiến lược nội dung, xây dựng định hướng thương hiệu đến sản xuất video và triển khai quảng cáo trên.',
-    emphasis: 'TikTok.',
+    headline: ' Tôi là:  ',
+    emphasis: 'Bùi Trọng Tấn',
     intro: '3 năm kinh nghiệm trong việc viết kịch bản, định hướng nội dung, sản xuất video TikTok.',
-    image: 'https://cdn.prod.website-files.com/63dcb6e1a80e9454b630f4c4/64a59e488d40ea3b664ef05d_info-pic-1.png',
+    image: '/picture/avt.jpg',
     imageAlt: 'Replace this portrait with your own'
   },
   storyLead: 'A little about me — and the experiences that shaped how I design.',
   stories: [
-    {
-      title: 'A background in design.',
-      paragraphs: [
-        'I started by learning how spaces, systems, and small details shape the way people feel.',
-        'That curiosity still guides the way I approach digital products today.'
-      ],
-      image: 'https://cdn.prod.website-files.com/63dcb6e1a80e9454b630f4c4/64ac7a32f48c87db19203789_info-pic-5.png',
-      imageAlt: 'Travel photograph — replace with your own'
-    },
-    {
-      title: 'Then I wanted more.',
-      paragraphs: [
-        'I wanted to work closer to the people using what I make, learn quickly, and help solve real problems.',
-        'That led me to product design and a practice built around curiosity, collaboration, and craft.'
-      ],
-      image: 'https://cdn.prod.website-files.com/63dcb6e1a80e9454b630f4c4/64a5bd98de6e86b98dbb3ca9_info-pic-2.png',
-      imageAlt: 'Architecture photograph — replace with your own'
-    },
-    {
-      title: 'Finding my way into product design.',
-      paragraphs: [
-        'I began by taking on small challenges, asking better questions, and learning from every attempt.',
-        'Over time, experiments turned into a process I could bring to teams and meaningful products.'
-      ],
-      image: 'https://cdn.prod.website-files.com/63dcb6e1a80e9454b630f4c4/64afa385b8520f6cfa079e8e_info-pic.png',
-      imageAlt: 'Outdoor photograph — replace with your own'
-    },
-    {
-      title: 'Making the details matter.',
-      paragraphs: [
-        'I enjoy turning complex ideas into clear, approachable experiences.',
-        'I care about visual storytelling, thoughtful interactions, and the small finishing touches that make a product feel complete.'
-      ],
-      image: 'https://cdn.prod.website-files.com/63dcb6e1a80e9454b630f4c4/64a5ccb799ca82d3534ad7c0_info-pic-3.png',
-      imageAlt: 'City photograph — replace with your own'
-    },
-    {
-      title: 'Outside of work,',
-      paragraphs: [
-        'You might find me exploring a new place, making something just for fun, or spending time with friends.',
-        'Thanks for stopping by.'
-      ],
-      image: 'https://cdn.prod.website-files.com/63dcb6e1a80e9454b630f4c4/64a5d2850f619c6fac128f22_info-pic-4.png',
-      imageAlt: 'Personal photograph — replace with your own'
-    }
-  ],
+  {
+    title: 'Xuất phát điểm từ những dòng code.',
+    paragraphs: [
+      'Tôi bắt đầu hành trình của mình với ngành Công nghệ thông tin và từng có thời gian gắn bó với lập trình Frontend.',
+      'Tư duy logic và khả năng thấu hiểu cách một sản phẩm vận hành từ bên trong đã cho tôi một nền tảng vững chắc trước khi bước sang những ngã rẽ mới.'
+    ],
+    image: '/picture/istockphoto-1356364287-612x612.jpg',
+    imageAlt: 'Hình ảnh làm việc hoặc không gian sáng tạo'
+  },
+  {
+    title: 'Bước chuyển mình sang thế giới hình ảnh.',
+    paragraphs: [
+      'Khao khát được trực tiếp tạo ra những nội dung chạm tới cảm xúc người xem đã đưa tôi đến với công việc chỉnh sửa video, đặc biệt là nội dung ngắn trên TikTok.',
+      'Rời khỏi không gian màn hình dòng lệnh, tôi học cách kết nối với khán giả qua nhịp điệu, hình ảnh và những câu chuyện thị giác.'
+    ],
+    image: '/picture/duan1.png',
+    imageAlt: 'Hình ảnh dựng video hoặc sáng tạo nội dung'
+  },
+  {
+    title: 'Xây dựng giá trị từ con số 0.',
+    paragraphs: [
+      'Qua nhiều dự án, tôi đã trực tiếp đặt nền móng và phát triển nhiều kênh TikTok từ những bước đầu tiên, biến ý tưởng thành những cột mốc tăng trưởng thực tế.',
+      'Mỗi kênh là một bài toán riêng về tư duy nội dung và sự kiên trì—nơi tôi áp dụng cả sự chỉn chu của người làm kỹ thuật lẫn sự nhạy bén của người sáng tạo.'
+    ],
+    image: '/picture/duan2.png',
+    imageAlt: 'Hình ảnh về kết quả hoặc quá trình làm việc'
+  },
+  {
+    title: 'Làm chủ góc máy và thiết bị.',
+    paragraphs: [
+      'Không dừng lại ở khung hình hậu kỳ, tôi chọn cầm máy để chủ động ghi lại từng khoảnh khắc.',
+      'Từ các dòng máy Canon RP, M6 Mark II, 70D đến chất màu của Fujifilm X-S20 hay sự linh hoạt của Osmo Pocket 3 và Insta360, tôi luôn linh hoạt công cụ để kể câu chuyện một cách trọn vẹn nhất.'
+    ],
+    image: '/picture/camera.jpg',
+    imageAlt: 'Hình ảnh thiết bị máy ảnh hoặc góc quay'
+  },
+  {
+    title: 'Đi, trải nghiệm và ghi lại.',
+    paragraphs: [
+      'Ngoài giờ làm việc, bạn sẽ thường thấy tôi trên những hành trình du lịch trải nghiệm, quan sát thế giới xung quanh và lưu giữ góc nhìn cá nhân qua ống kính.',
+      'Cảm ơn bạn đã ghé thăm nơi này—hãy kết nối nếu bạn muốn cùng chia sẻ hoặc tạo ra những điều thú vị nhé!'
+    ],
+    image: '/picture/dulich.jpg',
+    imageAlt: 'Hình ảnh du lịch và khoảnh khắc cá nhân'
+  }
+],
   signature: 'Bùi Trọng Tấn',
   experience: [
     {
-      company: 'Company One',
-      role: 'Product Designer',
-      dates: '2024 — Present',
-      description: 'Describe the product, team, and impact of your work in one or two sentences.'
+      company: 'Tk Media',
+      role: 'Editor & Content Creator & Marketing',
+      dates: '7/2025 — Nay',
+      description: 'xây dựng kênh TikTok, viết kịch bản, sản xuất video, tăng dộ nhận diện thương hiệu cá nhân, phát triển nội dung liên quan đến ẩm thực, booking, và thu hút người theo dõi.'
     },
     {
-      company: 'Company Two',
-      role: 'UX / Product Design Intern',
-      dates: '2023 — 2024',
-      description: 'Summarize a project or responsibility that shows how you work.'
+      company: 'Panda Media',
+      role: 'Editor & Content Creator & Marketing',
+      dates: '1/2025 — đến nay',
+      description: 'xây dựng kênh TikTok, viết kịch bản, sản xuất video, tăng dộ nhận diện thương hiệu cho việc Livestream idol và tuyển dụng nhân sự tại Bắc Ninh.'
     },
     {
-      company: 'Company Three',
-      role: 'Design Intern',
-      dates: '2022 — 2023',
-      description: 'Add a concise description of the work and outcome.'
+      company: 'Logictic DingDong',
+      role: 'Editor & Content Creator',
+      dates: '2024 — 2/2025',
+      description: 'xây dựng kênh TikTok, viết kịch bản, sản xuất video và chạy quảng cáo cho các dự án về bán hàng. trên sàn thương mại điện tử, livestream '
     }
   ],
   // friends: [
@@ -127,6 +127,6 @@ export const portfolio = {
   footer: {
     copyright: '© Bùi Trọng Tấn.',
     note: 'Website được phát triển bằng Angular 17, TypeScript 6 và Tailwind CSS theo hình thức vibe code, nhằm mục đích học tập và phát triển kỹ năng, không sử dụng cho mục đích thương mại. Nội dung dự án thuộc lĩnh vực ẩm thực, giải trí và tiếp thị địa phương. Số liệu công khai được ghi nhận vào tháng 11/2026.',
-    comingSoon: 'Được phát triển bởi Bùi Trọng Tấn. Always making something new.'
+    comingSoon: 'Được phát triển bởi Bùi Trọng Tấn. '
   }
 } as const;

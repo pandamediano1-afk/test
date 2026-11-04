@@ -10,4 +10,9 @@ import { portfolio } from './portfolio-content';
 })
 export class AppComponent {
   readonly portfolio = portfolio;
+
+  constructor() {
+    window.history.scrollRestoration = 'manual';
+    window.scrollTo(0, 0);
+  }
 }
