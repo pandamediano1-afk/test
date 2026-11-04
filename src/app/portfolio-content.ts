@@ -81,52 +81,52 @@ export const portfolio = {
       description: 'Add a concise description of the work and outcome.'
     }
   ],
-  friends: [
-    { name: 'Person One', role: 'Designer — Company', url: 'https://example.com' },
-    { name: 'Person Two', role: 'Product Designer — Company', url: 'https://example.com' },
-    { name: 'Person Three', role: 'Design Lead — Company', url: 'https://example.com' },
-    { name: 'Person Four', role: 'UX Designer — Company', url: 'https://example.com' },
-    { name: 'Person Five', role: 'Creative Director — Company', url: 'https://example.com' },
-    { name: 'Person Six', role: 'Founder — Studio', url: 'https://example.com' },
-    { name: 'Person Seven', role: 'Product Designer — Company', url: 'https://example.com' },
-    { name: 'Person Eight', role: 'Design Engineer — Company', url: 'https://example.com' }
-  ],
+  // friends: [
+  //   { name: 'Person One', role: 'Designer — Company', url: 'https://example.com' },
+  //   { name: 'Person Two', role: 'Product Designer — Company', url: 'https://example.com' },
+  //   { name: 'Person Three', role: 'Design Lead — Company', url: 'https://example.com' },
+  //   { name: 'Person Four', role: 'UX Designer — Company', url: 'https://example.com' },
+  //   { name: 'Person Five', role: 'Creative Director — Company', url: 'https://example.com' },
+  //   { name: 'Person Six', role: 'Founder — Studio', url: 'https://example.com' },
+  //   { name: 'Person Seven', role: 'Product Designer — Company', url: 'https://example.com' },
+  //   { name: 'Person Eight', role: 'Design Engineer — Company', url: 'https://example.com' }
+  // ],
   work: {
-    label: 'Công Việc',
-    headline: 'Viết kịch bản, định hướng nội dung, và sản xuất video. chạy ads',
-    emphasis: 'trên nền tảng TikTok',
-    intro: 'Hỗ trợ các doanh nghiệp, cá nhân, và tổ chức phát triển thương hiệu',
-    note: 'Các dự án được thực hiện bởi Bùi Trọng Tấn',
+    label: 'DỰ ÁN TIÊU BIỂU',
+    headline: 'Tôi phát triển các kênh TikTok bằng',
+    emphasis: 'những câu chuyện thu hút người xem.',
+    intro: 'Nhà sáng tạo nội dung TikTok trong lĩnh vực ẩm thực, livestream và thương hiệu địa phương.',
+    note: 'Các dự án thuộc lĩnh vực ẩm thực, giải trí và tiếp thị địa phương. Số liệu công khai được ghi nhận vào tháng 11/2026.',
     projects: [
       {
-        title: 'Kênh TikTok Ouyang- TikTok',
-        client: 'từ tháng 12/2025 đến nay',
-        description: 'định hướng nội dung, viết kịch bản, sản xuất video, chăm sóc khách hàng',
-        image: 'https://cdn.prod.website-files.com/63dcb6e1a80e9454b630f4c4/64a5bd98de6e86b98dbb3ca9_info-pic-2.png',
+        title: 'Xây kênh TikTok - HotGrill',
+        client: 'HotGrill · Bắc Ninh · từ tháng 12/2025 đến nay',
+        description: 'Nội dung song ngữ Việt–Trung về ẩm thực, trải nghiệm tại quán và câu chuyện thương hiệu. Phụ trách định hướng nội dung, viết kịch bản, sản xuất video và chăm sóc khách hàng.',
+        image: '/picture/duan1.png',
         imageAlt: 'Project One cover image',
-        url: '#'
+        url: '/project/ouyang'
       },
       {
-        title: 'Kênh TikTok Panda Media- TikTok',
-        client: 'từ tháng 3/2026 đến nay',
-        description: 'định hướng nội dung, viết kịch bản, sản xuất video, chạy ads',
-        image: 'https://cdn.prod.website-files.com/63dcb6e1a80e9454b630f4c4/64a5ccb799ca82d3534ad7c0_info-pic-3.png',
+        title: 'Phát triển kênh TikTok - Panda Media',
+        client: 'Panda Media · 2024',
+        description: 'Nội dung về nghề idol livestream, chuỗi review idol và cơ hội tuyển dụng tại Bắc Ninh. Công việc gồm định hướng nội dung, viết kịch bản, sản xuất video và chạy quảng cáo.',
+        image: '/picture/duan2.png',
         imageAlt: 'Project Two cover image',
-        url: '#'
+        url: '/project/panda-media'
       },
       {
-        title: 'Kênh Hảo Kinh Doanh - TikTok',
-        client: 'từ tháng 3/2026 đến nay',
-        description: 'Viết kịch bản, định hướng nội dung, và sản xuất video',
-        image: 'https://cdn.prod.website-files.com/63dcb6e1a80e9454b630f4c4/64a59e488d40ea3b664ef05d_info-pic-1.png',
+        title: 'Phát triển nội dung TikTok - Hảo Kinh Doanh',
+        client: 'HotGrill · Bắc Ninh · từ tháng 3/2026 đến nay',
+        description: 'Nội dung về set lẩu, combo lẩu camping và trải nghiệm ăn uống tại Bắc Ninh. Phụ trách viết kịch bản, định hướng nội dung và sản xuất video.',
+        image: '/picture/duan3.png',
         imageAlt: 'Project Three cover image',
-        url: '#'
+        url: '/project/hao-kinh-doanh'
       }
     ]
   },
   footer: {
     copyright: '© Bùi Trọng Tấn.',
-    note: 'website được vibe code thiết kế và phát triển bởi Bùi Trọng Tấn nhằm mục đích học tập và phát triển kỹ năng. không sử dụng cho mục đích thương mại.',
-    comingSoon: 'Always making something new.'
+    note: 'Website được phát triển bằng Angular 17, TypeScript 6 và Tailwind CSS theo hình thức vibe code, nhằm mục đích học tập và phát triển kỹ năng, không sử dụng cho mục đích thương mại. Nội dung dự án thuộc lĩnh vực ẩm thực, giải trí và tiếp thị địa phương. Số liệu công khai được ghi nhận vào tháng 11/2026.',
+    comingSoon: 'Được phát triển bởi Bùi Trọng Tấn. Always making something new.'
   }
 } as const;

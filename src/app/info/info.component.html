@@ -48,16 +48,4 @@
     </div>
   </section>
 
-  <section class="friends-section">
-    <h2 class="eyebrow"><span class="eyebrow-dot"></span>FRIENDS</h2>
-    <div class="friends-grid">
-      @for (friend of data.friends; track friend.name) {
-        <a class="friend-card" [href]="friend.url" target="_blank" rel="noreferrer">
-          <span class="friend-name">{{ friend.name }}</span>
-          <span class="friend-role">{{ friend.role }}</span>
-          <span class="friend-link">{{ displayUrl(friend.url) }} ↗</span>
-        </a>
-      }
-    </div>
-  </section>
 </main>

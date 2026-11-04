@@ -10,7 +10,7 @@
 
   <section class="projects" aria-label="Selected projects">
     @for (project of data.work.projects; track project.title; let i = $index) {
-      <a class="project-card" [href]="project.url">
+      <a class="project-card" [routerLink]="project.url">
         <div class="media-frame project-image">
           <img [src]="project.image" [alt]="project.imageAlt" [attr.loading]="i === 0 ? 'eager' : 'lazy'">
         </div>
